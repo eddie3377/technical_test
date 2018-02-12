@@ -1,0 +1,83 @@
+body {
+    background-color: lightgray;
+}
+
+#search {
+    background-color: #fff;
+    width: 40%;
+    left: 30%;
+    border: solid thin;
+    border-radius: 16px 10px;
+    position: absolute;
+    box-shadow: 10px 5px 5px;
+}
+
+#name {
+    border-radius: 5px;
+    width: 70%;
+    min-height: 30px;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+#button {
+    border-radius: 5px;
+    width: 15%;
+    min-height: 36px;
+    background-color: rgba(122, 138, 147, 0.8);
+    margin-left: 5px;
+}
+
+.avatar {
+    position: absolute;
+    padding: 10px 5px 5px 30px;
+    width: 95px;
+    height: 95px;
+}
+
+.information {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+
+}
+
+.user {
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.fullName {
+    font-weight: 900;
+    font-size: 45px;
+    margin: 0;
+}
+
+.biog {
+    font-size: 17px;
+    margin: 0;
+
+}
+
+.repositories {
+    position: relative;
+    font-size: 19px;
+    font-family: "Courier New", monospace, serif;
+    border-bottom: 3px solid;
+}
+
+#test {
+    margin-top: 90px;
+    margin-left: 27px;
+    width: 90%;
+    font-weight: bold;
+    font-family: "Courier New", monospace, serif;
+    padding-bottom: 1em;
+
+}
+
+img {
+    height: 10px;
+}
